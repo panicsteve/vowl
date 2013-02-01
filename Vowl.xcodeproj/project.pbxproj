@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F10EB025148EC99A006ADEB7 /* Vowl.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = F10EB024148EC99A006ADEB7 /* Vowl.entitlements */; };
+		F1135A4A16BC4CBE00D2920B /* SFClickableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1135A3D16BC4CBE00D2920B /* SFClickableImageView.m */; };
+		F1135A4B16BC4CBE00D2920B /* SFFlickrClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F1135A3F16BC4CBE00D2920B /* SFFlickrClient.m */; };
+		F1135A4C16BC4CBE00D2920B /* SFFlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F1135A4216BC4CBE00D2920B /* SFFlickrPhoto.m */; };
+		F1135A4D16BC4CBE00D2920B /* SFFlickrTag.m in Sources */ = {isa = PBXBuildFile; fileRef = F1135A4416BC4CBE00D2920B /* SFFlickrTag.m */; };
+		F1135A4E16BC4CBE00D2920B /* SFRestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1135A4616BC4CBE00D2920B /* SFRestRequest.m */; };
+		F1135A4F16BC4CBE00D2920B /* SFTransitioningImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1135A4916BC4CBE00D2920B /* SFTransitioningImageView.m */; };
+		F121EA7010D6FDDE0095E7F0 /* PrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F121EA6F10D6FDDE0095E7F0 /* PrefsWindowController.m */; };
+		F15FB5930F81782D00FB7A6F /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F15FB5920F81782D00FB7A6F /* Controller.m */; };
+		F1BC625B1283569300A2D685 /* Vowl.icns in Resources */ = {isa = PBXBuildFile; fileRef = F1BC625A1283569300A2D685 /* Vowl.icns */; };
+		F1CFD48913063EE1003B83A1 /* VowlWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFD48813063EE1003B83A1 /* VowlWindow.m */; };
+		F1ECF31310D6EA2700C4C4C9 /* PrefsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1ECF31110D6EA2700C4C4C9 /* PrefsWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Vowl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vowl_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Vowl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vowl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10EB024148EC99A006ADEB7 /* Vowl.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Vowl.entitlements; sourceTree = "<group>"; };
+		F1135A3C16BC4CBE00D2920B /* SFClickableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFClickableImageView.h; path = sfkit/SFClickableImageView.h; sourceTree = "<group>"; };
+		F1135A3D16BC4CBE00D2920B /* SFClickableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFClickableImageView.m; path = sfkit/SFClickableImageView.m; sourceTree = "<group>"; };
+		F1135A3E16BC4CBE00D2920B /* SFFlickrClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFFlickrClient.h; path = sfkit/SFFlickrClient.h; sourceTree = "<group>"; };
+		F1135A3F16BC4CBE00D2920B /* SFFlickrClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFFlickrClient.m; path = sfkit/SFFlickrClient.m; sourceTree = "<group>"; };
+		F1135A4016BC4CBE00D2920B /* SFFlickrClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFFlickrClientDelegate.h; path = sfkit/SFFlickrClientDelegate.h; sourceTree = "<group>"; };
+		F1135A4116BC4CBE00D2920B /* SFFlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFFlickrPhoto.h; path = sfkit/SFFlickrPhoto.h; sourceTree = "<group>"; };
+		F1135A4216BC4CBE00D2920B /* SFFlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFFlickrPhoto.m; path = sfkit/SFFlickrPhoto.m; sourceTree = "<group>"; };
+		F1135A4316BC4CBE00D2920B /* SFFlickrTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFFlickrTag.h; path = sfkit/SFFlickrTag.h; sourceTree = "<group>"; };
+		F1135A4416BC4CBE00D2920B /* SFFlickrTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFFlickrTag.m; path = sfkit/SFFlickrTag.m; sourceTree = "<group>"; };
+		F1135A4516BC4CBE00D2920B /* SFRestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFRestRequest.h; path = sfkit/SFRestRequest.h; sourceTree = "<group>"; };
+		F1135A4616BC4CBE00D2920B /* SFRestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFRestRequest.m; path = sfkit/SFRestRequest.m; sourceTree = "<group>"; };
+		F1135A4716BC4CBE00D2920B /* SFRestRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFRestRequestDelegate.h; path = sfkit/SFRestRequestDelegate.h; sourceTree = "<group>"; };
+		F1135A4816BC4CBE00D2920B /* SFTransitioningImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFTransitioningImageView.h; path = sfkit/SFTransitioningImageView.h; sourceTree = "<group>"; };
+		F1135A4916BC4CBE00D2920B /* SFTransitioningImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFTransitioningImageView.m; path = sfkit/SFTransitioningImageView.m; sourceTree = "<group>"; };
+		F121EA6E10D6FDDE0095E7F0 /* PrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsWindowController.h; sourceTree = "<group>"; };
+		F121EA6F10D6FDDE0095E7F0 /* PrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsWindowController.m; sourceTree = "<group>"; };
+		F15FB5910F81782D00FB7A6F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		F15FB5920F81782D00FB7A6F /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		F1BC625A1283569300A2D685 /* Vowl.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Vowl.icns; sourceTree = "<group>"; };
+		F1CFD48713063EE1003B83A1 /* VowlWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VowlWindow.h; sourceTree = "<group>"; };
+		F1CFD48813063EE1003B83A1 /* VowlWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VowlWindow.m; sourceTree = "<group>"; };
+		F1ECF31210D6EA2700C4C4C9 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PrefsWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F15FB5910F81782D00FB7A6F /* Controller.h */,
+				F15FB5920F81782D00FB7A6F /* Controller.m */,
+				F121EA6E10D6FDDE0095E7F0 /* PrefsWindowController.h */,
+				F121EA6F10D6FDDE0095E7F0 /* PrefsWindowController.m */,
+				F1CFD48713063EE1003B83A1 /* VowlWindow.h */,
+				F1CFD48813063EE1003B83A1 /* VowlWindow.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Vowl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* FlickityDooDah */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				F1BE866810D08463003C71A0 /* SFKit */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = FlickityDooDah;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Vowl_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F10EB024148EC99A006ADEB7 /* Vowl.entitlements */,
+				F1BC625A1283569300A2D685 /* Vowl.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				F1ECF31110D6EA2700C4C4C9 /* PrefsWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1BE866810D08463003C71A0 /* SFKit */ = {
+			isa = PBXGroup;
+			children = (
+				F1135A3C16BC4CBE00D2920B /* SFClickableImageView.h */,
+				F1135A3D16BC4CBE00D2920B /* SFClickableImageView.m */,
+				F1135A3E16BC4CBE00D2920B /* SFFlickrClient.h */,
+				F1135A3F16BC4CBE00D2920B /* SFFlickrClient.m */,
+				F1135A4016BC4CBE00D2920B /* SFFlickrClientDelegate.h */,
+				F1135A4116BC4CBE00D2920B /* SFFlickrPhoto.h */,
+				F1135A4216BC4CBE00D2920B /* SFFlickrPhoto.m */,
+				F1135A4316BC4CBE00D2920B /* SFFlickrTag.h */,
+				F1135A4416BC4CBE00D2920B /* SFFlickrTag.m */,
+				F1135A4516BC4CBE00D2920B /* SFRestRequest.h */,
+				F1135A4616BC4CBE00D2920B /* SFRestRequest.m */,
+				F1135A4716BC4CBE00D2920B /* SFRestRequestDelegate.h */,
+				F1135A4816BC4CBE00D2920B /* SFTransitioningImageView.h */,
+				F1135A4916BC4CBE00D2920B /* SFTransitioningImageView.m */,
+			);
+			name = SFKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Vowl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Vowl" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vowl;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FlickityDooDah;
+			productReference = 8D1107320486CEB800E47090 /* Vowl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Vowl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* FlickityDooDah */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Vowl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				F1ECF31310D6EA2700C4C4C9 /* PrefsWindow.xib in Resources */,
+				F1BC625B1283569300A2D685 /* Vowl.icns in Resources */,
+				F10EB025148EC99A006ADEB7 /* Vowl.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				F15FB5930F81782D00FB7A6F /* Controller.m in Sources */,
+				F121EA7010D6FDDE0095E7F0 /* PrefsWindowController.m in Sources */,
+				F1CFD48913063EE1003B83A1 /* VowlWindow.m in Sources */,
+				F1135A4A16BC4CBE00D2920B /* SFClickableImageView.m in Sources */,
+				F1135A4B16BC4CBE00D2920B /* SFFlickrClient.m in Sources */,
+				F1135A4C16BC4CBE00D2920B /* SFFlickrPhoto.m in Sources */,
+				F1135A4D16BC4CBE00D2920B /* SFFlickrTag.m in Sources */,
+				F1135A4E16BC4CBE00D2920B /* SFRestRequest.m in Sources */,
+				F1135A4F16BC4CBE00D2920B /* SFTransitioningImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F1ECF31110D6EA2700C4C4C9 /* PrefsWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1ECF31210D6EA2700C4C4C9 /* English */,
+			);
+			name = PrefsWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = Vowl.entitlements;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Vowl_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PRODUCT_NAME = Vowl;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = Vowl.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Steven Frank";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Vowl_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = Vowl;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Vowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Vowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
